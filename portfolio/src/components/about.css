@@ -1,0 +1,20 @@
+#body {
+    padding: 20px;
+    height: 100vh;
+    background-color: #ddd5f3;
+    overflow:auto;
+}
+.container {
+    background-color: #ddd5f3;
+    padding: 0px;
+    max-width: none;
+}
+
+#headshot {
+    width: 250px;
+    height: 250px;
+}
+
+.header {
+    text-align: center;
+}

@@ -1,7 +1,22 @@
-#headshot {
-    width: 250px;
-    height: 250px;
+/* style sheet for home page */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+#body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #ddd5f3;
+    height: 100vh;
 }
+
+#headshotCircle {
+    width: 400px;
+    height: 400px;
+}
+
 .header {
     text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#name {
+    font-size: 3rem;
 }
