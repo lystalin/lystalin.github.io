@@ -13,24 +13,30 @@ function AboutMe() {
             <img 
               src={aboutMeCircle} 
               alt="About me photo" 
-              id = "headshot"
+              id = "aboutMeImg"
             />
           <h2>Email: lystalin@utexas.edu</h2>
           <h2><a href="http://www.linkedin.com/in/jazmin-reyna">Connect with me!</a></h2>
         </div>
         <div class ='col-8' id = 'content'>
-          <h2>About Me</h2>
-            <p>
+          <div id = 'my-headers'>
+            About Me
+          </div>
+            <h4>
               I am a first generation student at the University of Texas at Austin majoring in Mathematics. 
               While also pursuing a certificate in Elements of Computing, I have gained several technical 
               skills such as proficiency in python (Pandas, Scikit-learn, Numpy), data analysis, and data 
               visualization. I am eager to apply my skills to make data driven decisions and develop my professional career.
-            </p>
-          <h2>Work Samples</h2>
-            <h3><a href="https://github.com/lystalin/CS-329E">Data Analysis using Jupyter Notebook (Python)</a></h3>
-            <h3><a href="https://github.com/lystalin/CS-313E">Assignments using a variety of algorithms (Python)</a></h3>
-          <h2>Resumé</h2>
-            <h3><a href = {ResumeSpring2024}>ResuméPDF</a></h3>
+            </h4>
+          <div id = 'my-headers'>
+            Work Samples
+          </div>
+            <h4><a href="https://github.com/lystalin/CS-329E">Data Analysis using Jupyter Notebook (Python)</a></h4>
+            <h4><a href="https://github.com/lystalin/CS-313E">Assignments using a variety of algorithms (Python)</a></h4>
+          <div id = 'my-headers'>
+            Resumé
+          </div>
+            <h4><a href = {ResumeSpring2024}>ResuméPDF</a></h4>
         </div>
       </div>
     </div>
