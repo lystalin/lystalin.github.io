@@ -24,9 +24,10 @@ function AboutMe() {
           </div>
             <h4>
               I am a first generation student at the University of Texas at Austin majoring in Mathematics. 
-              While also pursuing a certificate in Elements of Computing, I have gained several technical 
-              skills such as proficiency in python (Pandas, Scikit-learn, Numpy), data analysis, and data 
-              visualization. I am eager to apply my skills to make data driven decisions and develop my professional career.
+              While also pursuing a certificate in Elements of Computing, I have gained technical skills such 
+              as proficiency in Python, data analysis (Pandas, Scikit-learn, SQL, RStudio), data visualization 
+              (Tableau, matplotlib), web development (HTML, CSS, React.js), and more. I am eager to apply my 
+              skills to make data driven decisions and develop my professional career.
             </h4>
           <div id = 'my-headers'>
             Work Samples
@@ -34,9 +35,9 @@ function AboutMe() {
             <h4><a href="https://github.com/lystalin/CS-329E">Data Analysis using Jupyter Notebook (Python)</a></h4>
             <h4><a href="https://github.com/lystalin/CS-313E">Assignments using a variety of algorithms (Python)</a></h4>
           <div id = 'my-headers'>
-            Resumé
+            Resume
           </div>
-            <h4><a href = {ResumeSpring2024}>ResuméPDF</a></h4>
+            <h4><a href = {ResumeSpring2024}>ResumePDF</a></h4>
         </div>
       </div>
     </div>
