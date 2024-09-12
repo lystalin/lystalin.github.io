@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 import Headshotcopy from '../images/Headshotcopy.jpg';
-import ResumeSpring2024 from './ResumeSpring2024.pdf'
+import ResumeFall2024 from './ResumeFall2024.pdf'
 import headshotCircle from '../images/headshotCircle.png'
 
 function HomePage() {

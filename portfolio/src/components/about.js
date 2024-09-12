@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import Headshotcopy from '../images/Headshotcopy.jpg';
 import aboutMeCircle from '../images/aboutMeCircle.png';
-import ResumeSpring2024 from './ResumeSpring2024.pdf';
+import ResumeFall2024 from './ResumeFall2024.pdf';
 
 function AboutMe() {
 
@@ -26,8 +26,10 @@ function AboutMe() {
               I am a first generation student at the University of Texas at Austin majoring in Mathematics. 
               While also pursuing a certificate in Elements of Computing, I have gained technical skills such 
               as proficiency in Python, data analysis (Pandas, Scikit-learn, SQL, RStudio), data visualization 
-              (Tableau, matplotlib), web development (HTML, CSS, React.js), and more. I am eager to apply my 
-              skills to make data driven decisions and develop my professional career.
+              (Tableau, matplotlib, seaborn), web development (HTML, CSS, React.js), and more. The website you 
+              are looking at was coded by me! As I prepare to graduate in the Spring, I am excited to seek full 
+              time positions and internships, apply my strong analytical skills, make data driven decisions, and 
+              develop my professional career.
             </h4>
           <div id = 'my-headers'>
             Work Samples
@@ -37,7 +39,7 @@ function AboutMe() {
           <div id = 'my-headers'>
             Resume
           </div>
-            <h4><a href = {ResumeSpring2024}>ResumePDF</a></h4>
+            <h4><a href = {ResumeFall2024}>ResumePDF</a></h4>
         </div>
       </div>
     </div>
