@@ -18,8 +18,7 @@ function HomePage() {
         <div id = 'name'>
           <b>Hi, I'm Jazmin Reyna</b>
         </div>
-        <h2>Mathematics student interested in Data Analysis</h2>
-        <h2>Eager to make data driven decisions!</h2>
+        <h2>Mathematics student eager to make data driven decisions!</h2>
       </div>
     </div>
   );
