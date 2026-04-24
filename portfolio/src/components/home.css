@@ -1,23 +1,75 @@
-/* style sheet for home page */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
 #body {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 100px;
+    min-height: 100vh;
+
     background-color: #ddd5f3;
-    height: 100vh;
+    font-family: "Lexend Deca", sans-serif;
+}
+.container-fluid {
+    padding: 100px;
+    background-color: #ddd5f3;
 }
 
-#headshotCircle {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
+a {
+    color: #5b4bdb;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #3f2fb3;
+}
+
+h4 {
+    line-height: 1.5;
+  }
+  
+
+#aboutMeImg {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    display: block;
+}  
+
+.about-me {
+    font-size: 20px;
 }
 
 .header {
     text-align: center;
-    font-family: "Lexend Deca", sans-serif;
 }
 
-#name {
-    font-size: 3rem;
+#my-headers {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.col-4 {
+    overflow-wrap: break-word;
+}
+
+.icon-links {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+  }
+
+.resume-btn {
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #5b4bdb;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.resume-btn:hover {
+    background-color: #3f2fb3;
+    color: white;
 }
